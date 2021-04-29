@@ -1,0 +1,21 @@
+.header{
+
+}
+
+.main {
+
+}
+
+.inputData {
+  display: flex;
+  flex-direction: column;
+}
+
+.journalEntry {
+  text-align: left;
+  
+}
+
+.footer {
+
+}

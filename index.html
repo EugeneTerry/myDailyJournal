@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eugene's Daily Journal</title>
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <header></header>
+  <main>
+
+    <section>
+      <h2>
+        Eugene's Daily Journal
+      </h2>
+      <article class="inputData">
+        <form action="">
+          <fieldset>
+            <label class="inputData">Entry Date</label>
+            <input type="date" name="journalDate" id="journalDate">
+          </fieldset>
+        </form>
+        <form action="">
+          <fieldset>
+            <label class="inputData">Consept Covered</label>
+            <input type="text" name="conceptCover" id="conceptCover">
+          </fieldset>
+        </form>
+        <form action="">
+          <fieldset>
+            <label class="inputData">Journal Entry</label>
+            <textarea class="journalEntry" rows="3" cols="20">
+            </textarea>
+          </fieldset>
+        </form>
+        <form action="">
+          <fieldset>
+            <label class="inputData">Mood For Today</label>
+            <select name="mood" id="mood">
+              <option value="happy">Happy</option>
+              <option value="sad">Sad</option>
+              <option value="mad">Mad</option>
+              <option value="scared">Scared</option>
+              <option value="restless">Restless</option>
+            </select>
+          </fieldset>
+          <input type="submit" value="Submit">
+        </form>
+      </article>
+    </section>
+
+  </main>
+  <footer></footer>
+</body>
+</html>
